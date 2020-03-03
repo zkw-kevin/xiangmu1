@@ -1,0 +1,58 @@
+[
+    {
+      "id": 101,
+      "name": "小米电视4A 32英寸 ",
+      "js":"人工智能系统 高清液晶屏",
+      "price": 799,
+      "url": "https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg"
+    },
+    {
+      "id": 102,
+      "name": "小米全面屏电视E55A",
+      "js":"全面屏设计，人工智能语音",
+      "price": 1899,
+      "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ef6b4e9b9151849b3b1fb1dbf069c6ed.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+    },
+    {
+        "id": 103,
+        "name": "小米全面屏电视 E65A ",
+        "js":"全面屏设计，人工智能语音",
+        "price": 2899,
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b3317a291b112aa4712059ad93263668.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+      },
+      {
+        "id": 104,
+        "name": "小米电视4X 43英寸",
+        "js":"FHD全高清屏 人工智能语音",
+        "price": 1299,
+        "url": "https://i8.mifile.cn/b2c-mimall-media/ede227c1f0e3472fb8dcfae980d1e43f!200x200.jpg"
+      },
+      {
+        "id": 105,
+        "name": "小米电视4A 32英寸 ",
+        "js":"人工智能系统 高清液晶屏",
+        "price": 799,
+        "url": "https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg"
+      },
+      {
+        "id": 106,
+        "name": "小米全面屏电视E55A",
+        "js":"全面屏设计，人工智能语音",
+        "price": 1899,
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ef6b4e9b9151849b3b1fb1dbf069c6ed.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+      },
+      {
+          "id": 107,
+          "name": "小米全面屏电视 E65A ",
+          "js":"全面屏设计，人工智能语音",
+          "price": 2899,
+          "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b3317a291b112aa4712059ad93263668.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+        },
+        {
+          "id": 108,
+          "name": "小米电视4X 43英寸",
+          "js":"FHD全高清屏 人工智能语音",
+          "price": 1299,
+          "url": "https://i8.mifile.cn/b2c-mimall-media/ede227c1f0e3472fb8dcfae980d1e43f!200x200.jpg"
+        }
+]

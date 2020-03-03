@@ -31,14 +31,18 @@ function getList(){
          });
 
             $('.nav_top>ul').html(str).on({
-                mouseover:()=>$('.nav_box').stop().slideDown(),
+                mouseenter:()=>$('.nav_box').stop().slideDown(),
                 mouseleave:()=>$('.nav_box').stop().slideUp()
             }) 
-            .children('li')
+            .children('li')//找到所有的一级菜单下的li
             .on('mouseover',function(){
-                const index=$(this).index()
-                const list=res[index].list
+                const index=$(this).index()//找到自己移入的是哪一个li
+                // console.log(index);
+                const list=res[index].list//找到要渲染的数组
+               console.log(list);
+              //  用我们找到的数组把nav_box位置渲染了就可以
                 let str='';
+              //进行组装
                 list.forEach(item=>{
                     str+=`
                     <li>
@@ -51,56 +55,82 @@ function getList(){
                 
                     `
                 })
+                // 填充到页面
                 $('.nav_box>ul').html(str)
             })
+            //给nav_box添加一个移入移除
             $('.nav_box').on({
                 mouseover:function(){$(this).finish().show()},
                 mouseout:function(){$(this).finish().slideUp()}
             })
          }
-   
+
         
     })
 }
 getList()
 
 //左边导航栏渲染
+getList1()
 function getList1(){
-    $.ajax({
-        url:'../lib/nav_left.json',
-        dataType:'json',
-        success:function(res){
-            // console.log(res);
-            let str1 = ''
-            res.forEach(item => {
-            str1 += `
-              <li>
-                <p>${ item.title }</p>
-                <span>></span>
-                </li>
-                `
-     
-        //    item.list.forEach(item2 => {
-        //         console.log(item2.list);
-                
-        //       str1 += `<li>${ item2.name }</li>`
-        //     })
-            
-          })
-   
-          $('.box2>ul').html(str1)
-        //   $('.box2>ol').html(str1)
-     
-        $('.box2>ul').on({
-         mouseover: function(){$('.box2>ol').finish().show()},
-          mouseleave: function(){$('.box2>ol').finish().hide()}
-        })
-    }
-   
+  $.ajax({
+    url:"../lib/nav_left.json",
+    dataType:"json",
+    success:function(res){
+      // console.log(res);//讲数据拿出来
+      //创建一个字符串
+      let str=''
+      //进行外层数组循环，渲染一级标题  根据一级菜单鼠标事件出现二级菜单
+      res.forEach(item=>{
+        str +=`
+        <li>
+          <p>${item.title}</p>
+          <span>></span>  
+        </li>
+        `
+      })
+      //填充到nav_leftl里面的ul
+      $('.nav_left>ul')
+      .html(str)
+//       .on({
+//         mouseenter:()=>$('.nav_right').stop().slideDown(),
+//         mouseleasve:()=>$('.nvw_right').stop().slideUp()
+//       })
+//       .children('li')//找到所有的一级菜单上的li
+//       .on('mouseover',function(){
+//         const index=$(this).index()//知道自己移入的是哪一个li
+//         // console.log(index);  
+//         //找到要渲染的数组
+//         const list=res[index].list
+//         console.log(list);
+//         //用找到的数组把nav_right渲染
+//         let str =""
+//         //进行组装
+//         list.forEach(item1=>{
+//           str +=`
+//              <li>
+//                 <div>
+//                   <img src="${item1.url}" alt="">
+//                 </div>
+//                 <p class="title">${item1.name}</p >
+//              </li>
+//           `
+//         })
+//         //填充到nav_right里面
+//         $('.nav-right>ul').html(str)
         
-})
+//       })
+      
+//       //给nav_right添加一个移入移除事件
+//       $('.nav_right').on({
+//         mouseover:function(){$(this).finish().show()},
+//         mouseout:function(){$(this).finish().slideUp()}
+//       })
+      
+    }
+  })
 }
-getList1();
+
 // getList2()
 
 // function getList2() {
@@ -164,10 +194,10 @@ getList1();
 
 //轮播图
 var mySwiper = new Swiper ('.banner1', {
-    direction: 'vertical', // 垂直切换选项
+    // direction: 'vertical', // 垂直切换选项
     loop: true, // 循环模式选项
     autoplay:{
-        delay:1000
+        delay:3000
     },
     // 如果需要分页器
     pagination: {
@@ -220,7 +250,7 @@ var mySwiper = new Swiper ('.banner1', {
 
   //tab选项卡
   var mySwiper = new Swiper ('.banner2', {
-    direction: 'vertical', // 垂直切换选项
+    // direction: 'vertical', // 垂直切换选项
     loop: true, // 循环模式选项
     autoplay:{
       delay:2000
@@ -231,3 +261,161 @@ var mySwiper = new Swiper ('.banner1', {
     prevEl: '.hou',
   },
   })        
+
+
+  //渲染手机
+  function getList3(){
+    $.ajax({
+        url:"../lib/main1.json",
+        dataType:'json',
+        success:function(res){
+            // console.log(res);
+         let str=''  
+         res.forEach(item => {
+          //  console.log(item);
+           
+             str+=
+             `
+              <li>
+              <img src="${item.list_url}" alt="">
+              <p class='title'>${item.list_name}</p>
+              <span class='detail'>${item.list_js}</span>
+              <em class='price1'>${item.list_price}</em>
+            </li>`
+         });
+
+            $('.smallbox>ul').html(str)
+            // .on({
+            //     mouseover:()=>$('.smallbox>ul').stop().slideDown(),
+            //     mouseleave:()=>$('.smallbox>ul').stop().slideUp()
+            // }) 
+            .children('li')
+            .on('mouseover',function(){
+                const index=$(this).index()
+                const list=res[index].list
+                let str='';
+                list.forEach(item=>{
+                    str+=`
+                    <li>
+                    <img src="${item.list_url}" alt="">
+                    <p class='title'>${item.list_name}</p>
+                    <span class='detail'>${item.list_js}</span>
+                    <p class='price1'>${item.list_price}</p>
+                  </li>
+                    `
+                })
+                $('.smallbox>ul').html(str)
+            })
+            // $('.smallbox').on({
+            //     mouseover:function(){$(this).finish().show()},
+            //     mouseout:function(){$(this).finish().slideUp()}
+            // })
+         }
+
+        
+    })
+}
+getList3()
+//渲染家电
+function getList4(){
+  $.ajax({
+      url:"../lib/jiadian.json",
+      dataType:'json',
+      success:function(res){
+          // console.log(res);
+       let str=''  
+       res.forEach(item => {
+        //  console.log(item);
+         
+           str+=
+           `
+           <li>
+           <img src="${item.url}" alt="">
+          
+   
+         </li>
+         `
+       });
+
+          $('.a1>ul').html(str);
+
+       }
+      
+  })
+}
+getList4()
+
+//电视
+function getList5(){
+  $.ajax({
+    url:'../lib/remen.json',
+    dataType:'json',
+    success:function(res){
+      // console.log(res);
+      let str=''
+     res.forEach(function(item){
+      // console.log(item);
+      str+=`
+      <li>
+        <img src="${item.url}" alt="">
+        <p>${item.name}</p>
+        <span>${item.js}</span>
+        <div class='money'>${item.price}</div>
+
+      </li>
+      `
+     })
+      $('.a2>ul').html(str)
+      
+    }
+  })
+}
+getList5();
+//影音
+function getList6(){
+  $.ajax({
+    url:'../lib/yinying.json',
+    dataType:'json',
+    success:function(res){
+      // console.log(res);
+      let str=''
+     res.forEach(function(item){
+      // console.log(item);
+      str+=`
+      <li>
+        <img src="${item.url}" alt="">
+        <p>${item.name}</p>
+        <span>${item.js}</span>
+        <div class='money'>${item.price}</div>
+
+      </li>
+      `
+     })
+      $('.a3>ul').html(str)
+      
+    }
+  })
+}
+getList6();
+
+//点击事件热门，电视影音
+$('.d1').mouseover(function(){
+  $('.a2').show();
+  $('.d1').css('color',"orange").css('text-decoration','underline')
+})
+
+$('.d1').mouseout(function(){
+  $('.a2').finish();
+  $('.d1').css('text-decoration','none').css('color',"black");
+})
+
+$('.d2').mouseover(function(){
+  $('.a2').hide();
+  $('.a3').show()
+  $('.d2').css('color',"orange").css('text-decoration','underline').css('display','block')
+})
+
+$('.d2').mouseout(function(){
+  $('.a3').finish();
+  $('.d2').css('text-decoration','none').css('color',"black");
+})

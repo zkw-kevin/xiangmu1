@@ -1,0 +1,59 @@
+[
+    {
+      "id": 101,
+      "name": "米家互联网空调 ",
+      "js":"变频节能省电 自清洁",
+      "price": 2399,
+      "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8ce424d6fe93dfb74733b5838140b7ee.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+    },
+    {
+      "id": 102,
+      "name": "米家空调",
+      "js":"出众静音 快速制冷热",
+      "price": 1399,
+      "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200"
+    },
+    {
+        "id": 103,
+        "name": "米家空调",
+        "js":"出众静音 快速制冷热",
+        "price": 1399,
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec20453216dcd42f982cffe5fdbc3115.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+      },
+      {
+        "id": 104,
+        "name": "米家互联网空调 ",
+        "js":"变频节能省电 自清洁",
+        "price": 2399,
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8ce424d6fe93dfb74733b5838140b7ee.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+      },
+      {
+        "id": 105,
+        "name": "米家空调",
+        "js":"出众静音 快速制冷热",
+        "price": 1399,
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec20453216dcd42f982cffe5fdbc3115.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+      },
+      {
+        "id": 106,
+        "name": "米家互联网空调 ",
+        "js":"变频节能省电 自清洁",
+        "price": 2399,
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8ce424d6fe93dfb74733b5838140b7ee.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+      },
+      {
+        "id": 107,
+        "name": "米家空调",
+        "js":"出众静音 快速制冷热",
+        "price": 1399,
+        "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200"
+      },
+      {
+        "id": 108,
+        "name": "米家互联网空调 ",
+        "js":"变频节能省电 自清洁",
+        "price": 2399,
+        "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec20453216dcd42f982cffe5fdbc3115.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+      }
+
+]

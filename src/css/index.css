@@ -102,19 +102,27 @@ button:hover{
 }
 .nav_top>ul>li{
     font-size: 20px;
+    cursor: pointer;
 }
 .nav_top>ul>li:hover{
     color:orangered;
 }
 .nav_box{
     position: absolute;
-    /* z-index:300; */
+    background-color: #fff;
 }
 .nav_box>ul{
     position: absolute;
     left:120px;
     top:10px;
+    background-color: #fff;
 }
+.nav_box>ul img{
+    width: 160px;
+    height: 110px;
+    
+}
+
 .search{
     width: 300px;
     height: 50px;
@@ -152,20 +160,27 @@ button:hover{
     background-color: lightslategrey;
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
-   
+    margin-left: 120px;   
 }
-.box2>ul{
+.box2>.nav_left{
+    width: 100%;
+    height: 465px;
+    z-index:100;
+
+}
+.box2>.nav_left>ul{
+    padding-top: 20px;
     width: 100%;
     height: 465px;
     display:block;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  z-index:100;
-  background-color: lightslategrey;
+    z-index:100;
+    background-color: rgba(105,101,101,.6);
+    color: #fff;
 }
-.box2>ul>li{
+.box2>.nav_left>ul>li{
     display: flex;
     justify-content: space-between;
     /* float:left; */
@@ -175,26 +190,39 @@ button:hover{
     box-sizing:border-box;
     position: relative;
     cursor: pointer;
- 
+    color: #fff;
+    align-items: center;
 }
-.box2>ol{
+.box2>.nav_left>ul>li:hover{
+    background: orange;
+}
+.box2>.nav_right{
     width: 925px;
     height:463px;
-position:absolute;
-left:350px;
-background-color: lime;
+    position:absolute;
+    left:350px;
+    display: none;
+  
+}
+.box2>.nav_right>ul{
+    width: 925px;
+    height:463px;
+    position:absolute;
+    background-color: #fff;
+    /* z-index: 99; */
+    
+
 }
 
 /* 轮播图 */
 .swiper-container {
+    /* display: none; */
     width: 1180px;
     height: 465px;
     position: absolute;
-    /* left:350px; */
 }  
 .swiper-slide>img{
     float:left;
-    /* width: 925px; */
     height: 465px;
     display: block;
 }
@@ -259,6 +287,9 @@ background-color: lime;
 }
 
 /* 电子闪购 */
+.zong{
+    margin-top: 30px;
+}
 .watch{
     float:left;
     display:flex;
@@ -266,7 +297,7 @@ background-color: lime;
     margin-left: 120px;
     width:234px;
     height:340px;
-    background-color:plum;
+    background-color:rgb(245,245, 245);
 }
 .watch>h3{
     font-size: 20px;
@@ -352,4 +383,113 @@ background-color: lime;
     line-height: 20px;
     text-align:center;
     vertical-align:middel;
+}
+
+.bigbox{
+    margin-top: 30px;
+    background-color:rgb(245,245, 245);
+}
+.bigbox>img{
+    float:left;
+    margin-left: 120px;
+}
+.bigbox>.smallbox{
+    margin-left:10px;
+    float:left;
+    width: 920px;
+    height: 605px;
+    /* background-color: palegreen; */
+}
+.bigbox>.smallbox>ul{
+    display:flex ;
+    flex-wrap: wrap;
+}
+.bigbox>.smallbox>ul>li{
+    width:23%;
+    height:295px;
+   margin:8px;
+    background-color: #fff;
+}
+.bigbox>.smallbox>ul>li>.price1{
+    color:orange;
+}
+/* 家电 */
+.jiadian{
+    margin-top: 30px;
+    height: 615px;
+    width:100%;
+    background-color: rgb(245,245, 245);
+    position: relative;
+
+}
+.jiadian>span:nth-child(1){
+    position: absolute;
+   top:-25px;
+   right:30px;
+   float:right;
+   margin-right:120px;
+   font-size: 20px;
+
+}
+.jiadian>span:nth-child(2){
+    position: absolute;
+   top:-40px;
+   right:30px;
+   float:right;
+   margin:15px;
+   font-size: 20px;
+
+}
+.a1{
+    float:left;
+    margin-top:5px;
+    width:235px;
+    height: 615px;
+    margin-left: 120px;
+}
+.a1>ul{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.a1>ul>li{
+    width:100%;
+    height: 45%;
+}
+.a1>ul>li:nth-child(1){
+    margin-bottom:5px;
+}
+.a2{
+    float:left;
+    width: 945px;
+   
+}
+.a2>ul{
+    width: 945px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.a2>ul>li{
+    width: 225px;
+    height:295px;
+   margin:5px;
+   /* margin-left:10px; */
+    background-color: #fff;
+}
+.a3{
+    float:left;
+    width: 945px; 
+    display: none;
+}
+.a3>ul{
+    width: 945px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.a3>ul>li{
+    width: 225px;
+    height:295px;
+   margin:5px;
+   /* margin-left:10px; */
+    background-color: #fff;
 }
