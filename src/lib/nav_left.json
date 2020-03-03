@@ -1,0 +1,730 @@
+[
+    {
+        "id":1,
+        "title":"手机 电话卡",
+        "list":[
+            {
+                "id":101,
+                "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+            },
+            {
+                "id":102,
+                "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "id":103,
+                "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "id":104,
+                "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "id":105,
+                "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "id":106,
+                "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "id":107,
+                "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "id":108,
+                "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "id":109,
+                "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "id":110,
+                "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "id":111,
+                "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+            }
+        ]
+    },
+  
+        {
+            "id":2,
+            "title":"电视 盒子",
+            "list":[
+                {
+                    "id":201,
+                    "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":202,
+                    "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":203,
+                    "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":204,
+                    "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":205,
+                    "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":206,
+                    "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":207,
+                    "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":208,
+                    "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":209,
+                    "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":210,
+                    "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                },
+                {
+                    "id":211,
+                    "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                }
+            ]
+        },
+      
+            {
+                "id":3,
+                "title":"笔记本 显示器",
+                "list":[
+                    {
+                        "id":301,
+                        "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":302,
+                        "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":303,
+                        "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":304,
+                        "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":305,
+                        "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":306,
+                        "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":307,
+                        "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":308,
+                        "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":309,
+                        "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":310,
+                        "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":311,
+                        "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    }
+                ]
+            },
+            {
+                "id":4,
+                "title":"家电 插线板",
+                "list":[
+                    {
+                        "id":401,
+                        "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":402,
+                        "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":403,
+                        "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":404,
+                        "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":405,
+                        "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":406,
+                        "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":407,
+                        "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":408,
+                        "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":409,
+                        "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":410,
+                        "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    },
+                    {
+                        "id":411,
+                        "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                    }
+                ]
+            },
+          
+                {
+                    "id":5,
+                    "title":"出行 穿戴",
+                    "list":[
+                        {
+                            "id":501,
+                            "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":502,
+                            "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":503,
+                            "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":504,
+                            "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":505,
+                            "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":506,
+                            "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":507,
+                            "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":508,
+                            "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":509,
+                            "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":510,
+                            "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":511,
+                            "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        }
+                    ]
+                },
+                {
+                    "id":6,
+                    "title":"智能 路由器",
+                    "list":[
+                        {
+                            "id":601,
+                            "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":602,
+                            "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":603,
+                            "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+                            
+                        },
+                        {
+                            "id":604,
+                            "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":605,
+                            "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":606,
+                            "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":607,
+                            "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":608,
+                            "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":609,
+                            "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":610,
+                            "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        },
+                        {
+                            "id":611,
+                            "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                        }
+                    ]
+                },
+              
+                    {
+                        "id":7,
+                        "title":"电源 配件",
+                        "list":[
+                            {
+                                "id":701,
+                                "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":702,
+                                "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":703,
+                                "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":704,
+                                "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":705,
+                                "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":706,
+                                "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":707,
+                                "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":708,
+                                "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":709,
+                                "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":710,
+                                "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":711,
+                                "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "id":8,
+                        "title":"健康 儿童",
+                        "list":[
+                            {
+                                "id":801,
+                                "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":802,
+                                "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":803,
+                                "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":804,
+                                "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+                                
+                            },
+                            {
+                                "id":805,
+                                "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":806,
+                                "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":807,
+                                "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":808,
+                                "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":809,
+                                "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":810,
+                                "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":811,
+                                "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "id":9,
+                        "title":"耳机 音箱",
+                        "list":[
+                            {
+                                "id":901,
+                                "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":902,
+                                "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":903,
+                                "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":904,
+                                "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":905,
+                                "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":906,
+                                "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":907,
+                                "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":908,
+                                "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":909,
+                                "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":910,
+                                "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":911,
+                                "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "id":10,
+                        "title":"生活 箱包",
+                        "list":[
+                            {
+                                "id":1001,
+                                "name":"小米10 Pro",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1002,
+                                "name":"Redmi 8",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1003,
+                                "name":"小米CC美图定制版",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1004,
+                                "name":"移动4G+专区",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1005,
+                                "name":"小米10",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1006,
+                                "name":"小米MIX AIpha",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1007,
+                                "name":"小米CC9e",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1008,
+                                "name":"小米移动电话卡",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1009,
+                                "name":"小米9 Pro 5G",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1010,
+                                "name":"小米MIX 3",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            },
+                            {
+                                "id":1011,
+                                "name":"手机上门维修",
+                "url":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=160&h=110&f=webp&q=90"
+
+                            }
+                        ]
+                    }
+
+]
+            
