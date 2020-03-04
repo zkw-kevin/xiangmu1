@@ -35,11 +35,11 @@ function getList(){
                 mouseleave:()=>$('.nav_box').stop().slideUp()
             }) 
             .children('li')//找到所有的一级菜单下的li
-            .on('mouseover',function(){
+            .on('mouseenter',function(){
                 const index=$(this).index()//找到自己移入的是哪一个li
                 // console.log(index);
                 const list=res[index].list//找到要渲染的数组
-               console.log(list);
+              //  console.log(list);
               //  用我们找到的数组把nav_box位置渲染了就可以
                 let str='';
               //进行组装
@@ -92,40 +92,46 @@ function getList1(){
       //填充到nav_leftl里面的ul
       $('.nav_left>ul')
       .html(str)
-//       .on({
-//         mouseenter:()=>$('.nav_right').stop().slideDown(),
-//         mouseleasve:()=>$('.nvw_right').stop().slideUp()
-//       })
-//       .children('li')//找到所有的一级菜单上的li
-//       .on('mouseover',function(){
-//         const index=$(this).index()//知道自己移入的是哪一个li
-//         // console.log(index);  
-//         //找到要渲染的数组
-//         const list=res[index].list
-//         console.log(list);
-//         //用找到的数组把nav_right渲染
-//         let str =""
-//         //进行组装
-//         list.forEach(item1=>{
-//           str +=`
-//              <li>
-//                 <div>
-//                   <img src="${item1.url}" alt="">
-//                 </div>
-//                 <p class="title">${item1.name}</p >
-//              </li>
-//           `
-//         })
-//         //填充到nav_right里面
-//         $('.nav-right>ul').html(str)
+      .on({
+        mouseenter:()=>$('.nav_right').stop().slideDown(),
+        mouseleave:()=>$('.nvw_right').stop().slideUp()
+      })
+      .children('li')//找到所有的一级菜单上的li
+      .on('mouseenter',function(){
+        const index=$(this).index()//知道自己移入的是哪一个li
+        // console.log(index);  
+        //找到要渲染的数组
+        const list=res[index].list
+        // console.log(list);
+        //用找到的数组把nav_right渲染
+        let str =""
+        //进行组装
+        list.forEach(item=>{
+          console.log(item); 
+          str +=`
+             <li>
+                <div>
+                  <img src="${item.url}" alt="">
+                </div>
+                <p class="title">${item.name}</p >
+             </li>
+          `
+        })
+        // console.log(str);
         
-//       })
+        //填充到nav_right里面
+        $('.nav_right>ul').html(str)
+          .on({
+              mouseenter: () => $('.nav_right').stop().css("display","block"),
+              mouseleave: () => $('.nav_right').stop().css("display","none")
+            })
+      })
       
-//       //给nav_right添加一个移入移除事件
-//       $('.nav_right').on({
-//         mouseover:function(){$(this).finish().show()},
-//         mouseout:function(){$(this).finish().slideUp()}
-//       })
+      //给nav_right添加一个移入移除事件
+      $('.nav_right').on({
+        mouseover:function(){$(this).finish().show()},
+        mouseout:function(){$(this).finish().slideUp()}
+      })
       
     }
   })
@@ -289,23 +295,23 @@ var mySwiper = new Swiper ('.banner1', {
             //     mouseover:()=>$('.smallbox>ul').stop().slideDown(),
             //     mouseleave:()=>$('.smallbox>ul').stop().slideUp()
             // }) 
-            .children('li')
-            .on('mouseover',function(){
-                const index=$(this).index()
-                const list=res[index].list
-                let str='';
-                list.forEach(item=>{
-                    str+=`
-                    <li>
-                    <img src="${item.list_url}" alt="">
-                    <p class='title'>${item.list_name}</p>
-                    <span class='detail'>${item.list_js}</span>
-                    <p class='price1'>${item.list_price}</p>
-                  </li>
-                    `
-                })
-                $('.smallbox>ul').html(str)
-            })
+            // .children('li')
+            // .on('mouseover',function(){
+            //     const index=$(this).index()
+            //     const list=res[index].list
+            //     let str='';
+            //     list.forEach(item=>{
+            //         str+=`
+            //         <li>
+            //         <img src="${item.list_url}" alt="">
+            //         <p class='title'>${item.list_name}</p>
+            //         <span class='detail'>${item.list_js}</span>
+            //         <p class='price1'>${item.list_price}</p>
+            //       </li>
+            //         `
+            //     })
+            //     $('.smallbox>ul').html(str)
+            // })
             // $('.smallbox').on({
             //     mouseover:function(){$(this).finish().show()},
             //     mouseout:function(){$(this).finish().slideUp()}

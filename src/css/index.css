@@ -200,19 +200,35 @@ button:hover{
     width: 925px;
     height:463px;
     position:absolute;
+    background-color: gray;
     left:350px;
-    display: none;
+    /* display: none; */
   
 }
 .box2>.nav_right>ul{
-    width: 925px;
-    height:463px;
+    display: flex;
     position:absolute;
-    background-color: #fff;
-    /* z-index: 99; */
-    
-
+    z-index: 99;
 }
+.box2>.nav_right>ul li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+}
+.box2>.nav_right>ul img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.box2>.nav_right>ul p{
+    /* float: left; */
+    font-size: 14px;
+    /* line-height: 40px; */
+    text-align: center;
+    padding: 20px;
+}
+
 
 /* 轮播图 */
 .swiper-container {
@@ -398,7 +414,6 @@ button:hover{
     float:left;
     width: 920px;
     height: 605px;
-    /* background-color: palegreen; */
 }
 .bigbox>.smallbox>ul{
     display:flex ;
@@ -490,6 +505,5 @@ button:hover{
     width: 225px;
     height:295px;
    margin:5px;
-   /* margin-left:10px; */
     background-color: #fff;
 }
