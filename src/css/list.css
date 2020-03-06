@@ -115,7 +115,7 @@ button:hover{
     cursor: pointer;
 }
 .nav_top>ul{
-    float: left;
+    display: flex;
     margin-top:40px;
     position: absolute;
     left:280px;
@@ -129,11 +129,13 @@ button:hover{
     color:orangered;
 }
 .nav_box{
+    display: none;
     position: absolute;
+    height: 50%;
     background-color: #fff;
 }
 .nav_box>ul{
-    position: absolute;
+   display: flex;
     left:220px;
     top:10px;
     background-color: #fff;
@@ -181,14 +183,14 @@ button:hover{
     height: 465px;
     display: flex;
     flex-direction: column;
-    margin-left: 120px;   
+    margin-left: 120px; 
 }
 .box2>.nav_left{
+    position: absolute;
     background-color: lightslategrey;
     display: none;
     width: 100%;
     height: 465px;
-    z-index:100;
 
 }
 .box2>.nav_left>ul{
@@ -202,6 +204,7 @@ button:hover{
     z-index:100;
     background-color: rgba(105,101,101,.6);
     color: #fff;
+
 }
 .box2>.nav_left>ul>li{
     display: flex;
@@ -214,6 +217,7 @@ button:hover{
     cursor: pointer;
     color: #fff;
     align-items: center;
+    z-index: 3;
 }
 .box2>.nav_left>ul>li:hover{
     background: orange;
@@ -230,12 +234,12 @@ button:hover{
 .box2>.nav_right>ul{
     display: flex;
     position:absolute;
-    z-index: 99;
 }
 .box2>.nav_right>ul li{
     display: flex;
     flex-wrap: wrap;
     width: 25%;
+    z-index: 3;
 }
 .box2>.nav_right>ul img{
     display: block;
@@ -244,9 +248,7 @@ button:hover{
     float: left;
 }
 .box2>.nav_right>ul p{
-    /* float: left; */
     font-size: 14px;
-    /* line-height: 40px; */
     text-align: center;
     padding: 20px;
 }
@@ -254,9 +256,6 @@ button:hover{
 
 /* 排序 */
 .sort{
-    /* position: fixed;
-    left: 0;
-    top: 0; */
     cursor: pointer;
 }
 .sort:hover{
@@ -284,6 +283,10 @@ button:hover{
     align-items: center;
     flex-direction: column;
     height: 300px;
+    cursor: pointer;
+    /* z-index: 2; */
+
+
 }
 .box>ul li img:nth-child(1){
     display: block;

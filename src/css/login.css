@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0;
+}
+#main{
+    width: 100%;
+    height: 588px;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7f25f8c94bac0a8bfb3c6a3e30e5b7dd.jpg) no-repeat;
+}
+.main{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-left: 800px;
+    z-index: 99;
+}
+.main div{
+    padding-top: 20px;
+}
+.main>form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;   
+}
+.main>form span{
+    position: absolute;
+    color: red;
+    display: none;
+}
+.main>form input{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.main>form button{
+    width: 250px;
+    height: 30px;
+    background-color: orange;
+    border: 0;
+    margin-top: 30px;
+
+}

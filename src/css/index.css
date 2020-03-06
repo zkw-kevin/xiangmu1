@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.clear::after{content:" ";display: block;clear:both;height: 0;overflow: hidden;visibility: hidden;}
+.clear::after{content:"";display: block;clear:both;height: 0;overflow: hidden;visibility: hidden;}
 .head{
     background-color: black;
   
@@ -60,6 +60,7 @@ ul>img {
 a:hover{
     color:#fff;
     text-decoration: none;
+    
 }
 .nav button{
     background-color: #6666;
@@ -81,7 +82,7 @@ button:hover{
     width:80px;
     height:80px; 
     /* border: 1px solid red;  */
-    margin: 20px 130px 20px 120px;
+    margin: 20px 70px 20px 120px;
     position: relative;
     float:left;
 }
@@ -102,23 +103,40 @@ button:hover{
 .reversal:hover .back{transform:rotateY(0deg);}
 .reversal:hover .face{transform:rotateY(180deg);}
 
+.nav_top{
+    position: relative;
+    /* display: none; */
+}
+.nav_top span{
+    position: absolute;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+    cursor: pointer;
+}
 .nav_top>ul{
+    display: flex;
     margin-top:40px;
+    position: absolute;
+    left:280px;
 }
 .nav_top>ul>li{
     font-size: 20px;
     cursor: pointer;
+
 }
 .nav_top>ul>li:hover{
     color:orangered;
 }
 .nav_box{
+    display: none;
     position: absolute;
+    height: 50%;
     background-color: #fff;
 }
 .nav_box>ul{
-    position: absolute;
-    left:120px;
+   display: flex;
+    left:220px;
     top:10px;
     background-color: #fff;
 }
@@ -127,7 +145,6 @@ button:hover{
     height: 110px;
     
 }
-
 .search{
     width: 300px;
     height: 50px;
@@ -217,8 +234,10 @@ button:hover{
 }
 .box2>.nav_right>ul li{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
-    width: 25%;
+    flex: 1;
 }
 .box2>.nav_right>ul img{
     display: block;

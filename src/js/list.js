@@ -49,7 +49,7 @@ function getList(){
 }
 getList()
 
-//分类显示
+//分类显示  左侧导航不能固定且二级数组的图片渲染不出来
 getList1()
 function getList1(){
   $.ajax({
@@ -272,7 +272,7 @@ $('.box>ul').on('click','li',function(){
         break
     }
   }
-  console.log(data);
+  // console.log(data);
   //4.把这条数据拿到detail页面中渲染
   //需要跨页面通讯
   //将找到的数据存储到localStorage

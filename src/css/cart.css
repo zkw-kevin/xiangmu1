@@ -164,7 +164,7 @@ ul,ol,li{
     width: 201px;
     height: 70px;
     padding-right: 81px;
-    text-align: right;
+    text-align: center;
 }
 .cart>.top>p:nth-child(7){
     width: 80px;
@@ -219,13 +219,18 @@ ul,ol,li{
 .center>.shop li .num{
     display: flex;
     align-items: center;
-    width: 145px;
-    height: 91px;
+    /* width: 145px; */
+    margin-top: 25px;
+    margin-right: 35px;
+    height: 35px;
+    border: 1px solid #b0b0b0;
 }
 .center>.shop li .num button{
+    border: none;
     width: 30px;
     height: 30px;
     font: 14px/28px "";
+    background-color: #fff;
 }
 .center>.shop li .num input{
     height: 30px;
@@ -233,19 +238,23 @@ ul,ol,li{
     border: none;
     outline: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    color: #757575;
 }
 .center>.shop li .tit{
     width: 197px;
     height: 91px;
     padding-right: 81px;
-    text-align: right;
+    text-align: center;
 }
 .center>.shop li .del_1{
+    cursor: pointer;
     width: 80px;
     height: 91px;
     text-align: center;
-  
+}
+.center>.shop li .del_1:hover{
+    color: red;
 }
 .cart>.bottom{
     display: flex;
@@ -257,17 +266,41 @@ ul,ol,li{
     font-size: 14px;
     color: #424242;
 }
+.cart>.bottom a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #424242;
+    cursor: pointer;
+}
 .cart>.bottom p{
     margin: 0;
+    width: 240px;
     height: 50px;
     text-align: center;
-    padding-right: 40px;
+    padding-right: 30px;
     padding-left: 24px;
 }
-
+.cart>.bottom span{
+    color: #ff6700;
+}
+.cart>.bottom>span{
+    width: 240px;
+    font-size: 18px;
+    margin-left: 250px;
+    padding-right: 60px;
+}
 .cart>.bottom button{
+    margin-left: 50px;
     width: 200px;
     height: 35px;
     /* button中文字垂直居中，要设置高和行高，行高要小于高 */
     font: 18px/30px "";
+    margin: 0 20px;
+    background-color: #ff6700;
+    color: #fff;
+    border: none;
+}
+.cart>.bottom button:hover{
+    background-color: #ff6700;
+    color: #fff;
 }

@@ -27,7 +27,7 @@ function getList() {
             str += `
                     <li>
                     <div>
-                      <img src="${ item.list_url}" alt="">
+                      <img class="my-foto" src="${ item.list_url}"  data-large="${ item.list_url}" title="Фото">
                     </div>
                     <p class="title">${ item.list_name}</p>
                     <span class="price">${ item.list_price}</span>
@@ -153,7 +153,7 @@ $('.addcart').click(() => {
     //数组里面每一个id===本页面的这条数据id
     return item.list_id===info.list_id
   })
-  console.log(exits);
+  console.log(exits);//返回值是true或false
   if(exits){
     console.log('已经存在number++');
     let data=null
@@ -178,7 +178,22 @@ $('.addcart').click(() => {
   localStorage.setItem('cartList',JSON.stringify(cartList))
   // console.log(cartList);
 
+  //跳转到购物车页面
+  window.location.href='../pages/cart.html'
+
 })
 
+//放大镜
+jQuery(function(){
+   
+  $(".my-foto").imagezoomsl({
+    
+     zoomrange: [3, 3]
+  });
+});  
+//跳转到list页面
+$('.nav_top>ul').on('click', 'li', function () {
+  window.location.href = '../pages/list.html'
+})
 
 

@@ -115,7 +115,7 @@ button:hover{
     cursor: pointer;
 }
 .nav_top>ul{
-    float: left;
+    display: flex;
     margin-top:40px;
     position: absolute;
     left:280px;
@@ -129,11 +129,13 @@ button:hover{
     color:orangered;
 }
 .nav_box{
+    display: none;
     position: absolute;
+    height: 50%;
     background-color: #fff;
 }
 .nav_box>ul{
-    position: absolute;
+   display: flex;
     left:220px;
     top:10px;
     background-color: #fff;
