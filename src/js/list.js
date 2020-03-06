@@ -105,14 +105,11 @@ function getList1(){
               mouseleave: () => $('.nav_right').stop().css("display","none")
             })  
        })
-          // 填充到全部商品上
-        $('.nav_top>span')            
-          .on({
-            mouseenter:()=>$('.nav_box2').stop().slideDown(),
-            mouseleave:()=>$('.nav_box2').stop().slideUp()      
-          })
-
-      
+      //  填充到全部商品
+        $('.shop').on({
+              mouseenter: () => $('.nav_left').stop().css("display","block"),
+              mouseleave: () => $('.nav_left').stop().css("display","none")
+          })    
       //给nav_right添加一个移入移除事件
       $('.nav_right').on({
         mouseover:function(){$(this).finish().show()},
@@ -173,7 +170,7 @@ function getList2(){
         }
       }) 
       //3.1先把第一页的数据渲染一次    
-      bindHtml(res.slice(0,16)) 
+      bindHtml(res.slice(0,15)) 
 
       //给全局变量list1赋值
       list1=res
@@ -191,14 +188,14 @@ function bindHtml(list){
   list.forEach(item=>{
     // console.log(item);  
     str +=`
-    <li>
+    <li data-id="${item.list_id}">
       <img src="${item.list_url}" alt="">
       <p>
         <a href="">
           ${item.list_name}
         </a>
         </p>
-      <p>${item.list_price}元</p>
+      <p>￥${item.list_price}元</p>
       <a href="">${item.list_gwc}</a>
     </li>
     `
@@ -232,7 +229,7 @@ btn.onclick=function(){
       //渲染分页器
       $('.pagi').pagination({
         // mode:"fixed",//fixed固定分页器数量
-        pageCount: Math.ceil(list1.length/15),//总页数
+        pageCount: Math.ceil(list1.length/12),//总页数
         current:1,//当前页
         jump: true,//是否开启跳转指定页
         coping: true,
@@ -249,17 +246,42 @@ btn.onclick=function(){
 
             //根据第几页从总数组里面筛选出一部分数据
             let list=list1.slice((currPage-1)*15,currPage*15)//slice包前不包后currPage*15-1+1
-            // console.log(list);   
+            console.log(list);   
             
             //3.2每次分页器切换的时候渲染一次数据
             bindHtml(list)
         }
       }) 
       //3.1先把第一页的数据渲染一次    
-      bindHtml(list1.slice(0,16)) 
+      bindHtml(list1.slice(0,15)) 
   
 }
 
+//跳转页面
+//事件委托绑定一个事件
+$('.box>ul').on('click','li',function(){
+  // console.log(this);
+  const id=$(this).data('id')
+  // console.log(id);//找到数组中id为'+id+'的一条数据
+  
+  //从总的数组里面找到id配套的一个数据
+  let data={}
+  for(let i=0;i<list1.length;i++){
+    if(list1[i].list_id===id){
+        data=list1[i]
+        break
+    }
+  }
+  console.log(data);
+  //4.把这条数据拿到detail页面中渲染
+  //需要跨页面通讯
+  //将找到的数据存储到localStorage
+  localStorage.setItem('goods_info',JSON.stringify(data))
+
+  //存储值跳转页面
+window.location.href='../pages/detail.html'
+
+})
 
 
 
