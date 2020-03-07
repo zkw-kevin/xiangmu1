@@ -79,7 +79,7 @@ function bindHtml() {
     </ul>
 </div>
 <div class="bottom">
-    <p><a class="tz">继续选购</a> <em>|</em> 选择 <span> ${selectNumber}</span>件商品 </p>
+    <p><a class="tz" >继续选购</a> <em>|</em> 选择 <span> ${selectNumber}</span>件商品 </p>
     <span>合计：${selectPrice} 元</span>
     <button class="pay" ${selectArr.length ? '':'disabled'}>去结算</button>
     <button class="del" >清空购物车</button>
@@ -194,11 +194,15 @@ function bindEvent(){
 
         //重新渲染页面
         bindHtml()
-             
+
+        window.location.reload()      
+    
     }) 
 }
 
-//点击继续选购跳转至列表页  
+// 点击继续选购跳转至列表页  
 $('.cart').on('click','.tz',function(){
+    // console.log(this);
+    
     window.location.href='../pages/list.html'
 })
